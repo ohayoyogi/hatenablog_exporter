@@ -1,0 +1,15 @@
+[project]
+name = "hatenablog-exporter"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+# [tool.poetry.dependencies]
+# python = "^3.10"
+
+[project.scripts]
+hatenablog_exporter = "hatenablog_exporter:main"
